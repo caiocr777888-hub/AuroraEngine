@@ -1,0 +1,27 @@
+{
+  "Version": 1,
+  "Name": "Coin Run Menu",
+  "Entities": [
+    {
+      "SX": 1,
+      "Shape": "Empty",
+      "RX": 0,
+      "Y": 0,
+      "Id": "coin-run-menu",
+      "RZ": 0,
+      "RY": 0,
+      "SY": 1,
+      "X": 0,
+      "Z": 0,
+      "Name": "Menu",
+      "Components": [
+        {
+          "Value": 0,
+          "Type": "Script:CoinMenu"
+        }
+      ],
+      "Visible": true,
+      "SZ": 1
+    }
+  ]
+}

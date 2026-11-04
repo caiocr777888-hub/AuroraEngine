@@ -1,0 +1,13 @@
+# Aurora Engine - simple textured test marker
+v -0.5 0 0.5
+v 0.5 0 0.5
+v 0.5 0 -0.5
+v -0.5 0 -0.5
+v 0 0.9 0
+vt 0 0
+vt 1 0
+vt 0.5 1
+f 1/1 2/2 5/3
+f 2/1 3/2 5/3
+f 3/1 4/2 5/3
+f 4/1 1/2 5/3

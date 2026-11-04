@@ -1,0 +1,6 @@
+{
+  "Name": "Coin Run",
+  "Template": "3D",
+  "StartupScene": "Scenes/Menu.scene",
+  "Version": 1
+}

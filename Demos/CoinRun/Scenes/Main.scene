@@ -1,0 +1,304 @@
+{
+  "Name": "Coin Run",
+  "Entities": [
+    {
+      "Id": "c9387eec-922d-4b0d-8f4b-e5563674a7df",
+      "Name": "Arena",
+      "SY": 1,
+      "Shape": "Plane",
+      "SX": 10,
+      "Components": [],
+      "Visible": true,
+      "Y": 0,
+      "RY": 0,
+      "RX": 0,
+      "SZ": 10,
+      "Color": "#384B66",
+      "Z": 0,
+      "RZ": 0,
+      "Parent": null,
+      "X": 0,
+      "Texture": "Assets/Floor.png"
+    },
+    {
+      "Name": "Player",
+      "Y": 0.5,
+      "Color": "#65B8FF",
+      "Components": [
+        {
+          "Value": 0,
+          "Type": "Script:CoinGame"
+        },
+        {
+          "Value": 0,
+          "Type": "Body"
+        },
+        {
+          "Value": 0,
+          "Type": "BoxCollider"
+        }
+      ],
+      "SZ": 0.7,
+      "RZ": 0,
+      "RY": 0,
+      "Z": 4,
+      "X": 0,
+      "SY": 1,
+      "Shape": "Cube",
+      "Parent": null,
+      "Id": "a3596dd2-3c08-4bb3-a3e6-e086b9672d86",
+      "RX": 0,
+      "SX": 0.7,
+      "Visible": true
+    },
+    {
+      "Name": "Coin 1",
+      "Y": 0.7,
+      "Color": "#FFD166",
+      "Components": [
+        {
+          "Value": 0,
+          "Type": "SphereCollider"
+        },
+        {
+          "Value": 0,
+          "Type": "Trigger"
+        }
+      ],
+      "SZ": 0.6,
+      "RZ": 0,
+      "RY": 0,
+      "Z": -3,
+      "X": -3,
+      "SY": 0.15,
+      "Shape": "Cylinder",
+      "Parent": null,
+      "Id": "668aeb8f-6126-4831-b714-1403b72e0a8e",
+      "RX": 90,
+      "SX": 0.6,
+      "Visible": true
+    },
+    {
+      "Name": "Coin 2",
+      "Y": 0.7,
+      "Color": "#FFD166",
+      "Components": [
+        {
+          "Value": 0,
+          "Type": "SphereCollider"
+        },
+        {
+          "Value": 0,
+          "Type": "Trigger"
+        }
+      ],
+      "SZ": 0.6,
+      "RZ": 0,
+      "RY": 0,
+      "Z": -3,
+      "X": 3,
+      "SY": 0.15,
+      "Shape": "Cylinder",
+      "Parent": null,
+      "Id": "7b0215b2-5661-4ce7-835e-2c8649209d0f",
+      "RX": 90,
+      "SX": 0.6,
+      "Visible": true
+    },
+    {
+      "Name": "Coin 3",
+      "Y": 0.7,
+      "Color": "#FFD166",
+      "Components": [
+        {
+          "Value": 0,
+          "Type": "SphereCollider"
+        },
+        {
+          "Value": 0,
+          "Type": "Trigger"
+        }
+      ],
+      "SZ": 0.6,
+      "RZ": 0,
+      "RY": 0,
+      "Z": 0,
+      "X": 0,
+      "SY": 0.15,
+      "Shape": "Cylinder",
+      "Parent": null,
+      "Id": "acdd31f1-4782-43aa-9ea2-2d4757ea30bb",
+      "RX": 90,
+      "SX": 0.6,
+      "Visible": true
+    },
+    {
+      "Name": "Coin 4",
+      "Y": 0.7,
+      "Color": "#FFD166",
+      "Components": [
+        {
+          "Value": 0,
+          "Type": "SphereCollider"
+        },
+        {
+          "Value": 0,
+          "Type": "Trigger"
+        }
+      ],
+      "SZ": 0.6,
+      "RZ": 0,
+      "RY": 0,
+      "Z": 2,
+      "X": -3,
+      "SY": 0.15,
+      "Shape": "Cylinder",
+      "Parent": null,
+      "Id": "481abce8-5b2c-4d97-81a5-c853578f527b",
+      "RX": 90,
+      "SX": 0.6,
+      "Visible": true
+    },
+    {
+      "Name": "Coin 5",
+      "Y": 0.7,
+      "Color": "#FFD166",
+      "Components": [
+        {
+          "Value": 0,
+          "Type": "SphereCollider"
+        },
+        {
+          "Value": 0,
+          "Type": "Trigger"
+        }
+      ],
+      "SZ": 0.6,
+      "RZ": 0,
+      "RY": 0,
+      "Z": 2,
+      "X": 3,
+      "SY": 0.15,
+      "Shape": "Cylinder",
+      "Parent": null,
+      "Id": "8bce81e9-128e-48c6-8b96-c1625e15ef87",
+      "RX": 90,
+      "SX": 0.6,
+      "Visible": true
+    },
+    {
+      "Id": "bda65e12-2db8-4afe-9fc3-7d052dffe9a9",
+      "Name": "Boundary",
+      "SY": 0.3,
+      "Shape": "Cube",
+      "SX": 10.2,
+      "Components": [
+        {
+          "Value": 0,
+          "Type": "BoxCollider"
+        }
+      ],
+      "Visible": true,
+      "Y": 0.15,
+      "RY": 0,
+      "RX": 0,
+      "SZ": 0.2,
+      "Color": "#6D86AD",
+      "Z": -5,
+      "RZ": 0,
+      "Parent": null,
+      "X": 0
+    },
+    {
+      "Id": "419c5736-8166-4e18-8c1c-ec8b5f2f9ee7",
+      "Name": "Boundary",
+      "SY": 0.3,
+      "Shape": "Cube",
+      "SX": 10.2,
+      "Components": [
+        {
+          "Value": 0,
+          "Type": "BoxCollider"
+        }
+      ],
+      "Visible": true,
+      "Y": 0.15,
+      "RY": 0,
+      "RX": 0,
+      "SZ": 0.2,
+      "Color": "#6D86AD",
+      "Z": 5,
+      "RZ": 0,
+      "Parent": null,
+      "X": 0
+    },
+    {
+      "Id": "df056e35-3186-4864-a05c-49f0bfe55880",
+      "Name": "Boundary",
+      "SY": 0.3,
+      "Shape": "Cube",
+      "SX": 0.2,
+      "Components": [
+        {
+          "Value": 0,
+          "Type": "BoxCollider"
+        }
+      ],
+      "Visible": true,
+      "Y": 0.15,
+      "RY": 0,
+      "RX": 0,
+      "SZ": 10,
+      "Color": "#6D86AD",
+      "Z": 0,
+      "RZ": 0,
+      "Parent": null,
+      "X": -5
+    },
+    {
+      "Id": "63f2db2d-5909-43cf-846d-ff3cf4d0ada9",
+      "Name": "Boundary",
+      "SY": 0.3,
+      "Shape": "Cube",
+      "SX": 0.2,
+      "Components": [
+        {
+          "Value": 0,
+          "Type": "BoxCollider"
+        }
+      ],
+      "Visible": true,
+      "Y": 0.15,
+      "RY": 0,
+      "RX": 0,
+      "SZ": 10,
+      "Color": "#6D86AD",
+      "Z": 0,
+      "RZ": 0,
+      "Parent": null,
+      "X": 5
+    },
+    {
+      "SX": 1,
+      "Shape": "Empty",
+      "RX": -49,
+      "Y": 12,
+      "Id": "coin-run-camera",
+      "RZ": 0,
+      "RY": 0,
+      "SY": 1,
+      "X": 0,
+      "Z": 11,
+      "Name": "Game Camera",
+      "Components": [
+        {
+          "Value": 0,
+          "Type": "Camera"
+        }
+      ],
+      "Visible": true,
+      "SZ": 1
+    }
+  ],
+  "Version": 1
+}

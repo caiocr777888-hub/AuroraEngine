@@ -1,0 +1,12 @@
+/bin/
+/Games/*
+!/Games/README.md
+.vs/
+obj/
+*.user
+*.suo
+*.log
+*.bak
+*.tmp
+Thumbs.db
+.DS_Store
